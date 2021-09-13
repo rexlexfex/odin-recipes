@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'heimdalbold';
-    src: url('font/webkit/heimdal_bold-webfont.woff2') format('woff2'),
-         url('font/webkit/heimdal_bold-webfont.woff') format('woff');
+    src: url('assets/font/heimdal_bold-webfont.woff2') format('woff2'),
+         url('assets/font/heimdal_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -35,4 +35,43 @@ html {
     font-size: 1.4rem;
     line-height: 1.6;
     word-spacing: 0.6rem;
+  }
+  li {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+  }
+  a {
+    font-size: 2.4rem;
+    line-height: 2.6;
+    word-spacing: 1.0rem;
+  }
+  .navigation ul {
+    font: bold 11px 'heimdalbold', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .navigation li {
+    display: inline-block;
+    object-position: center top;
+  }
+  .navigation a {
+    background: #cc9966;
+    background: linear-gradient(#cc9966, #cc9966d5);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  .navigation a:hover {
+    background: #cc996650;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+  }
+  .navigation li:first-child a {
+    border-radius: 4px 0 0 4px;
+  }
+  .navigation li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;
   }

@@ -19,14 +19,20 @@
           text-align: center;
           letter-spacing: 2px;
         }
-  
-        h1 + p {
-          font-weight: bold;
+
+        h2 {
+          font-size: 2.4rem;
+          text-transform: capitalize;
+          text-shadow: 1px 1px 1px red,
+                       2px 2px 1px red;
+          text-align: center;
+          letter-spacing: 2px;
         }
   
-        p::first-line {
-          letter-spacing: 4px;
-          word-spacing: 4px;
+        h1 + p {
+          font-size: 2.4rem;
+          font-weight: bold;
+          text-align: center;
         }
   
         p {
@@ -36,12 +42,30 @@
           line-height: 1.6;
           letter-spacing: 1px;
         }
+        .img-container {
+        text-align: center;
+        display: block;
+        }
       </style>
 </head>
 <body>
     <h1>Odin's recipes</h1>
-      <p>
-         This is demo text
-      </p>
+      <p>Where Odin's delicious recipes are presented as peace offerings!</p>
+      <p style="text-align: center;">At the end of this project, I will have demonstrated my ability to appease the dreaded Moskstraumen through culinary prowess.</p>
+      <p style="text-align: center;">May the mighty windstorm spare our daring vessels!</p>
+      <div class="img-container">
+        <img src="assets/img/odin.gif" alt="The Odin Project logo blinking">
+      </div>  
+      <nav class="navigation";>
+        <ul style="text-align: center;">
+          <li><a href="recipes/life.html">Life</a></li><!--
+          --><li><a href="recipes/poetry.html">Poetry</a></li><!--
+          --><li><a href="recipes/protection.html">Protection</a></li>
+        </ul>
+      </nav>
+      <div class="img-container">
+        <img src="assets/img/rune.svg" alt="The Life, Happiness and Protection Runes">
+    </div>
+      <h2>The road might be long, the journey might be challenging and full of dangers. Take a rest if you must, but never turn back</h2>
 </body>
 </html>
