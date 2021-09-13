@@ -54,7 +54,6 @@ html {
   }
   .navigation li {
     display: inline-block;
-    object-position: center top;
   }
   .navigation a {
     background: #cc9966;
