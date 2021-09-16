@@ -20,17 +20,26 @@ html {
     max-width: 800px;
     margin: 0 auto;
   }
+<<<<<<< HEAD:style.css
   .img-container {
     text-align: center;
     display: block;
     }
 
   img {
+=======
+
+img {
+>>>>>>> edb6d67e23d2c42ea4a45669afad634b92febd99:web-font-start.css
     width: 80%;
     height: auto;
     max-width: 800px;
     margin: 0 auto;
+<<<<<<< HEAD:style.css
   }  
+=======
+}
+>>>>>>> edb6d67e23d2c42ea4a45669afad634b92febd99:web-font-start.css
   
   /* Typography */
   
@@ -111,4 +120,7 @@ html {
     border-right: 0;
     border-radius: 0 4px 4px 0;
   }
+<<<<<<< HEAD:style.css
   
+=======
+>>>>>>> edb6d67e23d2c42ea4a45669afad634b92febd99:web-font-start.css
