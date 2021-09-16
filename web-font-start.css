@@ -20,6 +20,13 @@ html {
     max-width: 800px;
     margin: 0 auto;
   }
+
+img {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+}
   
   /* Typography */
   
