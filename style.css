@@ -20,20 +20,57 @@ html {
     max-width: 800px;
     margin: 0 auto;
   }
+  .img-container {
+    text-align: center;
+    display: block;
+    }
+
+  img {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+  }  
   
   /* Typography */
   
   h1 {
-    font-size: 3.2rem;
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px red,
+                 2px 2px 1px red;
+    text-align: center;
+    letter-spacing: 2px;
   }
-  
   h2 {
     font-size: 2.4rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px red,
+                 2px 2px 1px red;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  h3 {
+    font-size: 2.0rem;
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px red,
+                 2px 2px 1px red;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  h1 + p {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
   }
   
   p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-family: 'heimdalbold',Helvetica, Arial, sans-serif;
     line-height: 1.6;
+    letter-spacing: 1px;
     word-spacing: 0.6rem;
   }
   li {
@@ -74,3 +111,4 @@ html {
     border-right: 0;
     border-radius: 0 4px 4px 0;
   }
+  
