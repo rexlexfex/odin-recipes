@@ -11,7 +11,7 @@
 html {
     font-size: 10px;
     margin: 0;
-    font-family: 'heimdalbold';
+    font-family: 'heimdalbold', Helvetica, Tahoma;
   }
   
   body {
@@ -65,7 +65,6 @@ html {
   p {
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
-    font-family: 'heimdalbold',Helvetica, Arial, sans-serif;
     line-height: 1.6;
     letter-spacing: 1px;
     word-spacing: 0.6rem;
@@ -81,7 +80,7 @@ html {
     word-spacing: 1.0rem;
   }
   .navigation ul {
-    font: bold 11px 'heimdalbold', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: bold 11px;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
