@@ -6,7 +6,6 @@
          url('assets/font/heimdal_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html {
@@ -20,12 +19,10 @@ html {
     max-width: 800px;
     margin: 0 auto;
   }
-  
   .img-container {
     text-align: center;
     display: block;
     }
-
   img {
     width: 80%;
     height: auto;
@@ -65,7 +62,6 @@ html {
     font-weight: bold;
     text-align: center;
   }
-  
   p {
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
